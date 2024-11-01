@@ -1,0 +1,39 @@
+.card-1 {
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(12, 235, 235);
+  height: 28vh;
+  margin: 2rem;
+  margin-left: 18rem;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px;
+}
+
+.card-1 h2 {
+  font-size: 1.8rem;
+  text-decoration: underline;
+  color: rgb(238, 48, 149);
+}
+.para {
+  font-size: 1.4rem;
+  color: rgb(35, 95, 184);
+}
+@media (max-width: 768px) {
+  .card-1 {
+    width: 90%; /* Make the card take most of the screen width */
+    height: auto; /* Allow height to adjust based on content */
+    margin: 1rem auto; /* Center the card horizontally */
+    margin-left: 0; /* Reset left margin */
+  }
+
+  .card-1 h2 {
+    font-size: 1.4rem; /* Adjust font size for readability */
+  }
+
+  .para {
+    font-size: 1.2rem; /* Adjust paragraph font size */
+  }
+}

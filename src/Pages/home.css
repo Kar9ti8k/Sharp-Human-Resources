@@ -1,0 +1,94 @@
+.main-img {
+  width: 100%;
+  position: relative;
+  object-fit: cover;
+}
+.img-para {
+  position: absolute;
+  top: 40%;
+  color: rgb(222, 233, 244);
+  font-size: 3.2rem;
+  padding-left: 4rem;
+}
+.img-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5.9vh;
+  width: 10rem;
+  background-color: rgb(51, 222, 39);
+  color: antiquewhite;
+  border-radius: 0.2rem;
+  position: absolute;
+  top: 90%;
+  margin-left: 40rem;
+}
+/* Container for Image Section */
+.image-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main Image Styling */
+.main-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Overlay Text Styling */
+.img-para {
+  position: absolute;
+  top: 35%;
+  color: rgb(222, 233, 244);
+  font-size: 3.2rem;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+/* Button Styling */
+.img-button {
+  height: 5.9vh;
+  width: 10rem;
+  background-color: rgb(51, 222, 39);
+  color: antiquewhite;
+  border-radius: 0.2rem;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: none;
+  cursor: pointer;
+}
+
+.img-button a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+/* Welcome Section Styling */
+.welcome-section {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.highlight {
+  color: blue; /* Highlight style for "Sharp Human Resources" */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .img-para {
+    font-size: 2rem;
+    top: 30%;
+  }
+
+  .img-button {
+    width: 8rem;
+    top: 60%;
+  }
+}

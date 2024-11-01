@@ -1,0 +1,50 @@
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Styling */
+.header-bar {
+  background-color: blue;
+  height: 7rem;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  align-items: center;
+  justify-content: space-between; /* Ensures content is spread evenly */
+  padding: 0 1rem; /* Adds padding on mobile to prevent content from touching the edges */
+}
+
+h1 {
+  color: #fff;
+  font-size: 1.5rem; /* Adjust font size for readability on mobile */
+}
+
+.p {
+  color: #f3efef;
+  margin-left: auto; /* Pushes the text to the right */
+  overflow: hidden;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .header-bar {
+    height: auto; /* Allow header height to adjust based on content */
+    flex-direction: column; /* Stack items vertically */
+    padding: 1rem 0; /* Adds top and bottom padding */
+  }
+
+  h1 {
+    font-size: 1.2rem; /* Smaller font size on mobile */
+  }
+
+  .p {
+    margin-left: 0; /* Remove large left margin */
+    font-size: 1rem; /* Adjust text size for readability on mobile */
+    text-align: center; /* Center text on mobile */
+    padding-top: 0.5rem; /* Adds spacing between items */
+  }
+}

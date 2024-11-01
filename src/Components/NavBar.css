@@ -1,0 +1,39 @@
+.Navbar {
+  background-color: #0e0d0d;
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.Nav-main {
+  display: flex;
+  flex-direction: row;
+  color: #de16c3;
+  gap: 2rem;
+  font-size: larger;
+}
+
+.Nav-Link {
+  color: #de16c3;
+  transition: color 0.2s ease;
+}
+
+.Nav-Link:hover {
+  color: #fff;
+}
+
+.Nav-Icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Icon {
+  font-size: 2rem;
+  cursor: pointer;
+  margin-left: 25rem;
+  color: #ffc499;
+}
