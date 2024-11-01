@@ -22,7 +22,7 @@ const FooTer = () => {
           <h2 className='text-2xl text-red-700'>Branches</h2>
           <p className='line-clamp-3'>Head Office: Secunderabad</p>
           <p className='line-clamp-3'>
-            Branch Offices: Sircilla, Armoor, Nizamabad.
+            Branch Offices: Sircilla, Armoor, Nizamabad
           </p>
         </div>
 
