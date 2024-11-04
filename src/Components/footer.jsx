@@ -37,7 +37,7 @@ const FooTer = () => {
       {/* Footer Bottom Section */}
       <div className='bg-blue-700 h-[3rem] flex justify-center items-center'>
         <p className='text-white text-sm'>
-          copyrights @ All rights reserved - 2016 | designed by nidhula
+          copyrights @ All rights reserved - 2016 | designed by XGANG.
         </p>
       </div>
     </>
