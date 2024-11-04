@@ -1,6 +1,5 @@
 .sidebar {
   position: fixed;
-
   top: 0;
   left: 0;
   width: 100%;
@@ -40,11 +39,10 @@
   border-radius: 50px;
   width: 2rem;
   background-color: #918e8e;
-
   cursor: pointer;
 }
 .close-btn :hover {
-  background-color: #283ba9;
+  background-color: #1b37d5;
   height: 2rem;
   width: 2rem;
   border-radius: 50px;

@@ -54,15 +54,28 @@
 .img-button {
   height: 5.9vh;
   width: 10rem;
-  background-color: rgb(51, 222, 39);
+  background: linear-gradient(
+    to right,
+    rgb(24, 213, 10),
+    rgb(73, 175, 190),
+    rgb(53, 53, 187)
+  ); /* background-color: rgb(75, 232, 64); */
   color: antiquewhite;
   border-radius: 0.2rem;
   position: absolute;
   top: 70%;
-  left: 50%;
+  left: 10%;
   transform: translateX(-50%);
   border: none;
   cursor: pointer;
+}
+.img-button :hover {
+  background: linear-gradient(
+    to right,
+    rgb(50, 204, 39),
+    rgb(73, 175, 190),
+    rgb(218, 58, 204)
+  );
 }
 
 .img-button a {
@@ -72,12 +85,14 @@
 
 /* Welcome Section Styling */
 .welcome-section {
-  margin-top: 2rem;
+  margin-top: 1rem;
   text-align: center;
+  justify-content: center;
+  font-size: 2rem;
 }
 
 .highlight {
-  color: blue; /* Highlight style for "Sharp Human Resources" */
+  color: rgb(42, 42, 157); /* Highlight style for "Sharp Human Resources" */
 }
 
 /* Mobile Responsiveness */
