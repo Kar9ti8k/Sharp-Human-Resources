@@ -14,8 +14,8 @@ body {
   width: 100%;
   max-width: 100%;
   align-items: center;
-  justify-content: space-between; /* Ensures content is spread evenly */
-  padding: 0 1rem; /* Adds padding on mobile to prevent content from touching the edges */
+  justify-content: space-between;
+  padding: 0 1rem;
 }
 
 h1 {

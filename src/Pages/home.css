@@ -1,28 +1,3 @@
-.main-img {
-  width: 100%;
-  position: relative;
-  object-fit: cover;
-}
-.img-para {
-  position: absolute;
-  top: 40%;
-  color: rgb(222, 233, 244);
-  font-size: 3.2rem;
-  padding-left: 4rem;
-}
-.img-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 5.9vh;
-  width: 10rem;
-  background-color: rgb(51, 222, 39);
-  color: antiquewhite;
-  border-radius: 0.2rem;
-  position: absolute;
-  top: 90%;
-  margin-left: 40rem;
-}
 /* Container for Image Section */
 .image-container {
   position: relative;
@@ -45,37 +20,28 @@
   position: absolute;
   top: 35%;
   color: rgb(222, 233, 244);
-  font-size: 3.2rem;
+  font-size: 2.5rem;
   text-align: center;
   padding: 0 1rem;
 }
 
 /* Button Styling */
 .img-button {
-  height: 5.9vh;
+  height: 6vh;
   width: 10rem;
-  background: linear-gradient(
-    to right,
-    rgb(24, 213, 10),
-    rgb(73, 175, 190),
-    rgb(53, 53, 187)
-  ); /* background-color: rgb(75, 232, 64); */
+  background: linear-gradient(to right, rgb(24, 213, 10), rgb(64, 225, 230));
   color: antiquewhite;
   border-radius: 0.2rem;
   position: absolute;
   top: 70%;
-  left: 10%;
+  left: 50%;
   transform: translateX(-50%);
   border: none;
   cursor: pointer;
 }
-.img-button :hover {
-  background: linear-gradient(
-    to right,
-    rgb(50, 204, 39),
-    rgb(73, 175, 190),
-    rgb(218, 58, 204)
-  );
+
+.img-button:hover {
+  background-color: rgb(19, 171, 9);
 }
 
 .img-button a {
@@ -87,23 +53,28 @@
 .welcome-section {
   margin-top: 1rem;
   text-align: center;
-  justify-content: center;
   font-size: 2rem;
 }
 
 .highlight {
-  color: rgb(42, 42, 157); /* Highlight style for "Sharp Human Resources" */
+  color: rgb(42, 42, 157); /* Highlight style */
 }
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
   .img-para {
-    font-size: 2rem;
+    font-size: 1.8rem;
     top: 30%;
+    padding: 0 0.5rem;
   }
 
   .img-button {
     width: 8rem;
     top: 60%;
+    height: 5vh;
+  }
+
+  .welcome-section {
+    font-size: 1.5rem;
   }
 }
