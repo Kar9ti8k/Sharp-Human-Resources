@@ -1,13 +1,15 @@
+// NavBar.js
 import React from 'react'
 import { IoIosMenu } from 'react-icons/io'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import SideBar from './SideBar'
 import './NavBar.css'
 import { useGlobalContext } from './Context'
-import { useLocation } from 'react-router-dom'
+
 const NavBar = () => {
   const { openSideBar } = useGlobalContext()
-  const locaion = useLocation()
+  const location = useLocation()
+
   return (
     <>
       <nav className='Navbar'>
@@ -40,7 +42,7 @@ const NavBar = () => {
               location.pathname === '/JobPositions' ? 'active' : ''
             }`}
           >
-            <p className='hidden sm:inline'>JobPositions</p>
+            <p className='hidden sm:inline'>Job Positions</p>
           </Link>
           <Link
             to='/Contact'

@@ -8,7 +8,7 @@ const links = [
   { id: 1, url: '/', text: 'Home' },
   { id: 2, url: '/Process', text: 'Process' },
   { id: 3, url: '/Services', text: 'Services' },
-  { id: 4, url: '/JobPositions', text: 'JobPositions' },
+  { id: 4, url: '/JobPositions', text: 'Job Positions' },
   { id: 5, url: '/Contact', text: 'Contact' },
 ]
 
@@ -22,17 +22,14 @@ const SideBar = () => {
           <RxCross1 />
         </button>
       </div>
-      <ul className='links'>
-        {links.map((link) => {
-          const { id, url, text } = link
-          return (
-            <li key={id}>
-              <Link to={url} onClick={closeSideBar}>
-                {text}
-              </Link>
-            </li>
-          )
-        })}
+      <ul className='sidebar-links'>
+        {links.map((link) => (
+          <li key={link.id}>
+            <Link to={link.url} onClick={closeSideBar}>
+              {link.text}
+            </Link>
+          </li>
+        ))}
       </ul>
     </aside>
   )
