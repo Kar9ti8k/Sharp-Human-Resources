@@ -21,7 +21,7 @@ const Process = () => {
             className='p-[2rem] float-left'
             src='http://www.gtminternational.in/img/process1.jpg'
           />
-          <p className='line-clamp-12 p-[2rem]'>
+          <p className='line-clamp-12 p-[2rem] ml-auto overflow-hidden'>
             Services civil and mep Construction, Road Bridges & Tunnels Facility
             Management, Landscaping, Heavy equipment drivers, Crane operators
             etc. Hospitality Hotels, Resorts, Catering- Industrial and

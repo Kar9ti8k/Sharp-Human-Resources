@@ -11,7 +11,7 @@ const Home = () => {
           alt='Dubai, Kuwait, and UAE'
           className='main-img'
         />
-        <p className='img-para'>
+        <p className='img-para overflow-hidden '>
           Welcome To <br />
           Dubai, Kuwait, and UAE
           <br />
