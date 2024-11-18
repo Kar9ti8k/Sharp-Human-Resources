@@ -1,5 +1,6 @@
 import React from 'react'
 import './Contact.css'
+import Login from '../Components/Login'
 const Contact = () => {
   return (
     <>
@@ -16,6 +17,9 @@ const Contact = () => {
             Plot No 76, 1st Floor, Swapnalok Complex, SD Road, Sarojini Devi
             Road, Secunderabad - 500003
           </p>
+        </div>
+        <div className=''>
+          <Login />
         </div>
       </div>
     </>
